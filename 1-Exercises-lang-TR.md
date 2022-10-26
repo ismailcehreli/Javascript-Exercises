@@ -86,9 +86,10 @@ let name = "İsmail",
 
 10. `myAge` ve `yourAge` adında iki değişken tanımlayıp değerlerini belirleyin ve aşağıdaki şekilde konsola log basın.
 
+```
 I am 25 years old.
-
 You are 30 years old.
+```
 
 ```js
 let myAge = 25;
