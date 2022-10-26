@@ -92,6 +92,16 @@ You are 30 years old.
 ```js
 let myAge = 25;
 let yourAge = 30;
+console.log(
+  "I am " + myAge + " years old.\nYou are " + yourAge + " years old."
+);
+```
+
+veya
+
+```js
+let myAge = 25;
+let yourAge = 30;
 console.log(`I am ${myAge} years old.
 You are ${yourAge} years old.`);
 ```
