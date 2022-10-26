@@ -172,35 +172,65 @@ console.log(check);
 
 7. Aşağıdaki etkinlikleri yapmak için Date nesnesini kullanın.
 
-   1. What is the year today?
-   2. What is the month today as a number?
-   3. What is the date today?
-   4. What is the day today as a number?
-   5. What is the hours now?
-   6. What is the minutes now?
-   7. Find out the numbers of seconds elapsed from January 1, 1970 to now.
+   1. Bugün yıl nedir?
+   
+   ```js
+   date = new Date();
+   console.log(date.getFullYear());
+   ```
 
-```js
-date = new Date();
-console.log(date.getFullYear());
-console.log(date.getMonth());
+   2. Bugünün ayı rakam olarak nedir?
+   
+   ```js
+   date = new Date();
+   console.log(date.getMonth());
+   ```
 
-days = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-];
+   3. Bugünün tarihi nedir?
 
-console.log(days[date.getDay()]);
-console.log(date.getDay());
-console.log(date.getHours());
-console.log(date.getMinutes());
-console.log(date.getTime());
-```
+   ```js
+   let now = new Date();
+   console.log(now);
+   ```
+
+   4. Bugün sayı olarak gün nedir?
+
+   ```js
+   date = new Date();
+
+   days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ];
+
+   console.log(date.getDay()); 
+   ```
+   
+   5. Şimdi saat kaç?
+
+   ```js
+   date = new Date();
+   console.log(date.getHours());
+   ```
+
+   6. Şimdi dakika kaç?
+
+   ```js
+   date = new Date();
+   console.log(date.getMinutes());
+   ```
+
+   7. 1 Ocak 1970'den bugüne kadar geçen saniye sayısını bulun.
+
+   ```js
+   date = new Date();
+   console.log(date.getTime());
+   ```
 
 # Seviye 2
 
