@@ -1,6 +1,6 @@
 # 2. GÜN EGZERSİZLERİ
 
-# Level 1
+# Seviye 1
 
 1- challenge adında bir değişken oluşturarak bu değişkene başlangıç değeri olarak '30 Days Of Javascript' değerini atayınız.
 
@@ -228,7 +228,7 @@ console.log(string.repeat(2));
 ```
 
 
-# Level 2
+# Seviye 2
 
 1- console.log() metodunu kullanarak aşağıdaki cümleyi yazdırınız.
 
@@ -365,7 +365,7 @@ let newString = string.substr(0,30) + string.substr(54,15);
 console.log(newString);
 ```
 
-# Level 3
+# Seviye 3
 
 1- 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Bu cümledeki love kelimesinin sayısını yazdırınız.
 
