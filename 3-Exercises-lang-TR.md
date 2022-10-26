@@ -51,7 +51,7 @@ let isItTrue = true;
 console.log(isItTrue ? "Yes It is" : "No It is not");
 ```
 
-    2. Yanlış değer sağlayan üç JavaScript ifadesi yazın.
+    1. Yanlış değer sağlayan üç JavaScript ifadesi yazın.
 
 ```js
 let areYouReady = false;
