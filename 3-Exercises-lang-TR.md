@@ -56,7 +56,6 @@ console.log(parseInt(9.8) == 10);
    ```js
    let areYouReady = false;
    console.log(areYouReady ? "I am ready" : "No, please wait");
-
       
    let areYouHappy = false;
    console.log(areYouHappy ? "Yes I am" : "No I am not");
