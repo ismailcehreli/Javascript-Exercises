@@ -279,8 +279,11 @@ let heightOfRectangle = parseInt(
   prompt("Please enter height of the rectangle.", "0")
 );
 let area = lenghtOfRectangle * heightOfRectangle;
+
 console.log(`The area of the rectangle is ${area}`);
+
 let perimeter = 2 * (lenghtOfRectangle + heightOfRectangle);
+
 console.log(`The perimeter of the rectangle is ${perimeter}`);
 ```
 
@@ -290,8 +293,11 @@ console.log(`The perimeter of the rectangle is ${perimeter}`);
 const pI = Math.PI;
 let r = parseInt(prompt("Please enter radius.", "0"));
 let area = pI * r * r;
+
 console.log(`The area of the circle is ${area}`);
+
 let circumference = 2 * pI * r;
+
 console.log(`Ht circumference of the circle is ${circumference}`);
 ```
 
