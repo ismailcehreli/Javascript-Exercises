@@ -299,11 +299,11 @@ console.log(`Ht circumference of the circle is ${circumference}`);
 8. y'nin değerini hesaplayın (y = x<sup>2</sup> + 6x + 9). Farklı x değerleri kullanmayı deneyin ve y'nin hangi x değerinin 0 olduğunu bulun.
 9. Kullanıcıdan saat ve saat başına oran girmesini isteyen bir komut dosyası yazın. Kişinin ücretini hesapla?
 
-   ```sh
-   Enter hours: 40
-   Enter rate per hour: 28
-   Your weekly earning is 1120
-   ```
+```sh
+Enter hours: 40
+Enter rate per hour: 28
+Your weekly earning is 1120
+```
 
 ```js
 const dayPerWeek = 7;
@@ -411,51 +411,51 @@ console.log(`I have been alive for ${calSecondYourAge} seconds.`);
 
     1. YYYY-MM-DD HH:mm
 
-```java
-const now = new(Date);
+    ```java
+    const now = new(Date);
 
-const year = now.getFullYear();
-const month = now.getMonth();
-const day = now.getDay();
-const minute = now.getMinutes();
-const hour = now.getHours();
+    const year = now.getFullYear();
+    const month = now.getMonth();
+    const day = now.getDay();
+    const minute = now.getMinutes();
+    const hour = now.getHours();
 
-const newDate = `${year}-${month}-${day} ${hour}:${minute}`;
+    const newDate = `${year}-${month}-${day} ${hour}:${minute}`;
 
-console.log(newDate);
-```
+    console.log(newDate);
+    ```
 
     2.  DD-MM-YYYY HH:mm
 
-```js
-const now = new Date();
+    ```js
+    const now = new Date();
 
-const year = now.getFullYear();
-const month = now.getMonth();
-const day = now.getDay();
-const minute = now.getMinutes();
-const hour = now.getHours();
+    const year = now.getFullYear();
+    const month = now.getMonth();
+    const day = now.getDay();
+    const minute = now.getMinutes();
+    const hour = now.getHours();
 
-const newDate = `${day}-${month}-${year} ${hour}:${minute}`;
+    const newDate = `${day}-${month}-${year} ${hour}:${minute}`;
 
-console.log(newDate);
-```
+    console.log(newDate);
+    ```
 
     3.  DD/MM/YYYY HH:mm
 
-```js
-const now = new Date();
+    ```js
+    const now = new Date();
 
-const year = now.getFullYear();
-const month = now.getMonth();
-const day = now.getDay();
-const minute = now.getMinutes();
-const hour = now.getHours();
+    const year = now.getFullYear();
+    const month = now.getMonth();
+    const day = now.getDay();
+    const minute = now.getMinutes();
+    const hour = now.getHours();
 
-const newDate = `${day}/${month}/${year} ${hour}:${minute}`;
+    const newDate = `${day}/${month}/${year} ${hour}:${minute}`;
 
-console.log(newDate);
-```
+    console.log(newDate);
+    ```
 
 # Seviye 3
 
@@ -463,15 +463,15 @@ console.log(newDate);
 
    1. YYY-MM-DD HH:mm eg. 2020-01-02 07:05
 
-```js
-const now = new Date();
+    ```js
+    const now = new Date();
 
-const year = now.getFullYear();
-const month = String(now.getMonth()).padStart(2, "0");
-const day = String(now.getDay()).padStart(2, "0");
-const minute = String(now.getMinutes()).padStart(2, "0");
-const hour = String(now.getHours()).padStart(2, "0");
+    const year = now.getFullYear();
+    const month = String(now.getMonth()).padStart(2, "0");
+    const day = String(now.getDay()).padStart(2, "0");
+    const minute = String(now.getMinutes()).padStart(2, "0");
+    const hour = String(now.getHours()).padStart(2, "0");
 
-const newDate = `${year}-${month}-${day} ${hour}:${minute}`;
-console.log(newDate);
-```
+    const newDate = `${year}-${month}-${day} ${hour}:${minute}`;
+    console.log(newDate);
+    ```
