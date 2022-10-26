@@ -202,7 +202,7 @@ console.log(date.getMinutes());
 console.log(date.getTime());
 ```
 
-### Egzersiz: Seviye 2
+# Seviye 2
 
 1. Kullanıcıdan üçgenin tabanını ve yüksekliğini girmesini ve bir üçgenin alanını hesaplamasını isteyen bir komut dosyası yazın (alan = 0,5 x b x h).
 
@@ -427,7 +427,7 @@ const newDate = `${day}/${month}/${year} ${hour}:${minute}`;
 console.log(newDate);
 ```
 
-### Egzersiz: Seviye 3
+# Seviye 3
 
 1. Tarih saat nesnesini kullanarak insan tarafından okunabilir bir saat biçimi oluşturun. Saat ve dakika her zaman iki basamaklı olmalıdır (7 saat 07 ve 5 dakika 05 olmalıdır)
 
