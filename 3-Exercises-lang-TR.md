@@ -247,6 +247,7 @@ let enterBase = parseInt(prompt("Please insert base", "0"));
 let enterHeight = parseInt(prompt("Please enter height", "0"));
 let area = enterBase * enterHeight * 0.5;
 let result = `The area of the triangle is ${area}`;
+
 console.log(result);
 ```
 
@@ -264,6 +265,7 @@ let enterA = parseInt(prompt("Please enter a side of the triangle.", "0"));
 let enterB = parseInt(prompt("Please enter b side of the triangle.", "0"));
 let enterC = parseInt(prompt("Please enter c side of the triangle.", "0"));
 let perimeter = enterA + enterB + enterC;
+
 console.log(`The perimeter of the triangle is ${perimeter}`);
 ```
 
@@ -361,6 +363,7 @@ I am 225 years older than you.
 let myAge = 250;
 let yourAge = 25;
 let ageDifference = myAge - yourAge;
+
 console.log(`I am ${ageDifference} years older than you.`);
 ```
 
