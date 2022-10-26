@@ -236,11 +236,11 @@ console.log(check);
 
 1. Kullanıcıdan üçgenin tabanını ve yüksekliğini girmesini ve bir üçgenin alanını hesaplamasını isteyen bir komut dosyası yazın (alan = 0,5 x b x h).
 
-   ```sh
-   Enter base: 20
-   Enter height: 10
-   The area of the triangle is 100
-   ```
+```sh
+Enter base: 20
+Enter height: 10
+The area of the triangle is 100
+```
 
 ```js
 let enterBase = parseInt(prompt("Please insert base", "0"));
@@ -252,12 +252,12 @@ console.log(result);
 
 2. Kullanıcıdan üçgenin a kenarını, b kenarını ve c kenarını girmesini ve üçgenin çevresini hesaplamasını isteyen bir komut dosyası yazın (çevre = a + b + c).
 
-   ```sh
-   Enter side a: 5
-   Enter side b: 4
-   Enter side c: 3
-   The perimeter of the triangle is 12
-   ```
+```sh
+Enter side a: 5
+Enter side b: 4
+Enter side c: 3
+The perimeter of the triangle is 12
+```
 
 ```js
 let enterA = parseInt(prompt("Please enter a side of the triangle.", "0"));
