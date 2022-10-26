@@ -38,20 +38,20 @@ console.log(parseInt(9.8) == 10);
 
 4- Boolean değeri, doğru veya yanlıştır.
 
-   1.  Doğruluk değeri sağlayan üç JavaScript ifadesi yazın.
+    1.  Doğruluk değeri sağlayan üç JavaScript ifadesi yazın.
 
-   ```js
-   let areYouReady = true;
-   console.log(areYouReady ? "I am ready" : "No, please wait");
+```js
+let areYouReady = true;
+console.log(areYouReady ? "I am ready" : "No, please wait");
 
-   let areYouHappy = true;
-   console.log(areYouHappy ? "Yes I am" : "No I am not");
+let areYouHappy = true;
+console.log(areYouHappy ? "Yes I am" : "No I am not");
 
-   let isItTrue = true;
-   console.log(isItTrue ? "Yes It is" : "No It is not");
-   ```
+let isItTrue = true;
+console.log(isItTrue ? "Yes It is" : "No It is not");
+```
 
-2.  Yanlış değer sağlayan üç JavaScript ifadesi yazın.
+    2.  Yanlış değer sağlayan üç JavaScript ifadesi yazın.
 
 ```js
 let areYouReady = false;
