@@ -104,6 +104,7 @@ veya
 ```js
 let myAge = 25;
 let yourAge = 30;
-console.log(`I am ${myAge} years old.
-You are ${yourAge} years old.`);
+console.log(`I am ${myAge} years old.\nYou are ${yourAge} years old.`);
 ```
+
+Not : Kod satırı içerisindeki \n bir satır atlatır.
