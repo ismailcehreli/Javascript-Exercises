@@ -50,7 +50,7 @@ console.log(parseInt(9.8) == 10);
     let isItTrue = true;
     console.log(isItTrue ? "Yes It is" : "No It is not");
 
-````
+    ```
 
 2.  Yanlış değer sağlayan üç JavaScript ifadesi yazın.
 
@@ -63,7 +63,7 @@ console.log(areYouHappy ? "Yes I am" : "No I am not");
 
 let isItTrue = false;
 console.log(isItTrue ? "Yes It is" : "No It is not");
-````
+```
 
 5. console.log() kullanmadan önce aşağıdaki karşılaştırma ifadesinin sonucunu bulun. Sonuca karar verdikten sonra console.log() kullanarak onaylayın.
 
