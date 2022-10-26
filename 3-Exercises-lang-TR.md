@@ -145,16 +145,16 @@ console.log(parseInt(9.8) == 10);
 
    12. Find the length of python and jargon and make a falsy comparison statement.
 
-```js
-const langFirst = "python";
-const langSecond = "jargon";
+   ```js
+   const langFirst = "python";
+   const langSecond = "jargon";
 
-console.log(langFirst.length);
-console.log(langSecond.length);
+   console.log(langFirst.length);
+   console.log(langSecond.length);
 
-let check = langFirst === langSecond;
-console.log(check);
-```
+   let check = langFirst === langSecond;
+   console.log(check);
+   ```
 
 6. console.log() kullanmadan önce aşağıdaki ifadelerin sonucunu bulun. Sonuca karar verdikten sonra console.log() kullanarak onaylayın.
 
